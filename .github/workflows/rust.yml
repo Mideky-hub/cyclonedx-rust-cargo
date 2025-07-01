@@ -6,6 +6,9 @@ on:
     branches:
       - "main"
 
+# see https://docs.github.com/en/actions/how-tos/writing-workflows/choosing-what-your-workflow-does/controlling-permissions-for-github_token
+permissions: {}
+
 jobs:
   lint:
     name: Linting & Coding Standards
