@@ -5,6 +5,9 @@ on:
     tags:
       - 'cyclonedx-bom-[0-9]+.[0-9]+.[0-9]+*'
 
+# see https://docs.github.com/en/actions/how-tos/writing-workflows/choosing-what-your-workflow-does/controlling-permissions-for-github_token
+permissions: {}
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
