@@ -18,7 +18,7 @@
 
 use std::{convert::TryFrom, str::FromStr};
 
-use fluent_uri::Uri as Url;
+use fluent_uri::UriRef as Url;
 use purl::{GenericPurl, GenericPurlBuilder};
 use thiserror::Error;
 
